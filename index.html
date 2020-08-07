@@ -6,22 +6,40 @@
     <title>Document</title>
 </head>
 <body>
-    <h1> this is heading 1</h1>
-    <h2> this is heading 2</h2>
-    <h3> this is heading 3</h3>
-    <h4> this is heading 4</h4>
-    <h5> this is heading 5</h5>
-    <h6> this is heading 6</h6>
-    <hr>
-    <p> this is paragraph</p>
-    <hr>
-    <a href="https://www.google.com/">link to www.google.com</a> <br>
-    <a href="./link.html" >link to another html file</a> <br>
-    <hr>
-    <img src="https://r-cf.bstatic.com/images/hotel/max1024x768/252/252366496.jpg" alt="sea">
-    <hr>
-    <button> click</button>
+    
 
+
+    1. ให้หาว่า attribute ของ tag ต่อไปนี้มี อะไรบ้างและใช้งานอย่างไร <br>
+     tag h, tag p , tag div , tag img , tag a , tag ul, tag ol, tag table , tag form, tag button  
+         
+     <br>
+     <hr>
+     tag h1  ===>  tags are used to define HTML headings.
+    
+        <h1> this is heading 1</h1>
+        <h2> this is heading 2</h2>
+        <h3> this is heading 3</h3>
+        <h4> this is heading 4</h4>
+        <h5> this is heading 5</h5>
+        <h6> this is heading 6</h6>
+        <hr>
+
+    tag p ===> tag defines a paragraph.
+        <p> this is paragraph</p>
+        <hr>
+    tag div ===> tag defines a division or a section in an HTML document <br> <br>
+        <div> content </div> <div>content</div>  <div>content</div>
+        <br>
+        <hr>
+    tag span ===> tag is an inline container used to mark up a part of a text, or a part of a document. <br> <br>
+        <span> content</span> <span> content</span> <span> content</span>
+        <hr>
+    tag img ===> tag is used to embed an image in an HTML page  <br> <br>
+        <img src="https://r-cf.bstatic.com/images/hotel/max1024x768/252/252366496.jpg" alt="sea">
+        <hr>
+    tag a ===>  tag defines a hyperlink, which is used to link from one page to another   <br> <br>
+        <a href="https://www.google.com/">link to www.google.com</a> <br> <hr>
+    tag ul ===>  tag defines an unordered (bulleted) list <br> 
     <ul>
         <li> list 1</li>
         <li> list 2</li>
@@ -29,22 +47,197 @@
         <li> list 4</li>
         <li> list 5</li>
     </ul>
-
+    <hr>
+    tag ol ===> tag defines an ordered list <br>
     <ol>list 1</ol>
     <ol>list 2</ol>
     <ol>list 3</ol>
     <ol>list 4</ol>
     <ol>list 5</ol>
-
-    <!-- <ol>
+    <hr>
+    tag ol + ul  <br>
+    <ol>
         <li> list 1</li>
         <li> list 2</li>
         <li> list 3</li>
         <li> list 4</li>
         <li> list 5</li>
-    </ol> -->
+    </ol>
     <hr>
-    <div> content </div> <div>content</div>  <div>content</div>
-    <span> content</span> <span> content</span> <span> content</span>
+
+    tag table  ===> tag defines an HTML table  <br> <br>   
+        <style>
+            table, th, td {
+              border: 1px solid black;
+              border-collapse: collapse;
+            }
+            </style> 
+        <table style="width:100%">
+            <tr>
+              <th>Firstname</th>
+              <th>Lastname</th> 
+              <th>Age</th>
+            </tr>
+            <tr>
+              <td>Jill</td>
+              <td>Smith</td>
+              <td>50</td>
+            </tr>
+            <tr>
+              <td>Eve</td>
+              <td>Jackson</td>
+              <td>94</td>
+            </tr>
+            <tr>
+              <td>John</td>
+              <td>Doe</td>
+              <td>80</td>
+            </tr>
+          </table> 
+    <hr>
+    tag form ===> form is used to collect user input <br><br>
+        <form>
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname">
+          </form>
+
+    <hr><br>
+    <button> click</button>
+    <br><br>
+    <hr>
+    2. ให้หาความเหมือนและความแตกต่างระหว่าง 2 tag ที่กำหนดให้
+    hr & br, ul & ol , select & checkbox & radio button,
+    div & span, script & style <hr><br>
+
+    - tag hr & br ===> tag hr ใช้สร้างเส้นคั่น tag br ใช้สําหรับการขึ้นบรรทัดใหม่
+    Test hr1 <hr> Test hr2 <hr>
+    
+    Test br1 <br> Test br2 <br>  <hr><hr>
+
+    - tag ul & ol ===> tag ul ใช้สร้าง list ตาม bulleted tag ol ใช้สร้าง list ตามลำดับ
+        <hr>
+        <ul>
+            <li>list 1</li>
+            <li>list 2</li>
+            <li>list 3</li>
+            <li>list 4</li>
+            <li>list 5</li>
+        </ul>
+        <hr>
+        <ol>
+            <li>list 1</li>
+            <li>list 2</li>
+            <li>list 3</li>
+            <li>list 4</li>
+            <li>list 5</li>
+        </ol>
+  
+        <hr>
+    - tag select & checkbox & radio button ===> ทั้ง 3 tag เป็นรูปแบบจัดการการเลือกตัวเลือก 
+        <hr>
+        <label for="cars">Choose a car:</label>
+
+        <select name="cars" id="cars">
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="mercedes">Mercedes</option>
+            <option value="audi">Audi</option>
+        </select>
+        <hr>
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+            <label for="vehicle1"> I have a bike</label><br>
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+            <label for="vehicle2"> I have a car</label><br>
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+            <label for="vehicle3"> I have a boat</label><br>
+        <hr>
+        <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br>
+        <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Other</label>
+        <hr>
+    - tag div & span ===> ทั้ง 2 tag เป็นการกำหนดรูปแบบ  หรือลักษณะข้อความ
+        <hr>
+        <style>
+            .myDiv {
+              border: 5px outset red;
+              background-color: lightblue;
+              text-align: center;
+            }
+        </style>
+        <div class="myDiv">
+            <h2>This is a heading in a div element</h2>
+            <p>This is some text in a div element.</p>
+        </div>
+        <hr>
+        <p>My mother has <span style="color:blue">blue</span> eyes.</p>
+        <hr>
+    - tag script & style ===> ใช้สำหรับเรียกใช้ funtion ต่าง ๆ
+        <hr>
+        <button type="button" onclick="myFunction()">Click Me!</button>
+
+        <p id="demo">This is a demonstration.</p>
+        
+        <script>
+        function myFunction() { 
+          document.getElementById("demo").innerHTML = "Hello JavaScript!";
+        }
+        </script>
+        <hr>
+
+        <h1 style="background-color:powderblue;">This is a heading</h1>
+        <p style="background-color:tomato;">This is a paragraph.</p>
+        <hr><br>
+        3. ให้หาว่า input type มีอะไรบ้างแต่ละ type แตกต่างกันอย่างไร
+ิ<br>
+- button<br>
+<input type="button"><br><hr>
+- checkbox <br>
+<input type="checkbox"><br><hr>
+- color <br>
+<input type="color"><br><hr>
+- date <br>
+<input type="date"><br><hr>
+- datetime <br>
+<input type="datetime-local"><br><hr>
+- email <br>
+<input type="email"><br><hr>
+- file <br>
+<input type="file"><br><hr>
+- hidden <br>
+<input type="hidden"><br><hr>
+- image <br>
+<input type="image"><br><hr>
+- month <br>
+<input type="month"><br><hr>
+- number <br>
+<input type="number"><br><hr>
+- password <br>
+<input type="password"><br><hr>
+- radio <br>
+<input type="radio"><br><hr>
+- range <br>
+<input type="range"><br><hr>
+- reset <br>
+<input type="reset"><br><hr>
+- search <br>
+<input type="search"><br><hr>
+- submit <br>
+<input type="submit"><br><hr>
+- tel <br>
+<input type="tel"><br><hr>
+- text <br>
+<input type="text"><br><hr>
+- time <br>
+<input type="time"><br><hr>
+- url <br>
+<input type="url"><br><hr>
+- week <br>
+<input type="week"><br><hr>
+
 </body>
 </html>
