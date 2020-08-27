@@ -4,7 +4,7 @@
     - คณิภน  มากกำเนิด <br />
 3.โจทย์การบ้าน ที่ทำ<br />
     lab 1 <br />
-    [![alt][https://ibb.co/KW0qCrR](clickToLink)
+    [![image](https://ibb.co/KW0qCrR)]
     
     <br />
 4.สร้างไฟล์ การบ้านที่ทำ<br />
