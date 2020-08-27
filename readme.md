@@ -6,5 +6,4 @@
     lab 1 <br />
     https://ibb.co/KW0qCrR
     
-    <br />
 4.สร้างไฟล์ การบ้านที่ทำ<br />
