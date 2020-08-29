@@ -4,7 +4,7 @@
     - คณิภน  มากกำเนิด <br />
 3.โจทย์การบ้าน ที่ทำ<br />
     lab 1 <br />
-    https://ibb.co/KW0qCrR
+    https://ibb.co/KW0qCrR<br />
     lab 2 <br />
     https://ibb.co/nQqbKPX
     
